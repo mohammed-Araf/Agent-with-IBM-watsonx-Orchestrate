@@ -3,7 +3,17 @@
 
 This tutorial guides you through building a simple Generative AI agent that can perform a specific task—calculation—using a custom tool. This demonstrates the core concept of "Agentic AI," where a language model uses defined functions to solve problems accurately.
 
+## ⚠️ Important Note on Development Approaches
+
+This tutorial demonstrates a **Python SDK-based approach** to building an agent. 
+
+However, IBM has recently introduced the **Agent Development Kit (ADK)**, which is the recommended modern standard for building watsonx Orchestrate agents. The ADK uses a CLI-based workflow (`orchestrate` command) and YAML configuration files for defining agents.
+
+*   **This Tutorial**: Good for understanding the underlying Python logic and SDK interaction.
+*   **Official ADK Way**: Recommended for production and official deployment. See the [Developer Portal](https://developer.watson-orchestrate.ibm.com/) for the ADK guide.
+
 ## 1. Prerequisites
+
 
 Before you begin, ensure you have:
 *   **Python 3.11+** installed.

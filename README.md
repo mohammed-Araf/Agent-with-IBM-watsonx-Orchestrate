@@ -2,6 +2,9 @@
 
 This project demonstrates how to build a simple Generative AI agent using the IBM watsonx Orchestrate Python SDK. The agent is designed to perform a specific task—basic arithmetic calculations—by utilizing a custom "calculator" tool. This serves as a foundational example of "Agentic AI," where LLMs leverage external tools to solve problems accurately.
 
+## ⚠️ Note on Agent Development Kit (ADK)
+This repository demonstrates a **Python SDK** implementation. For the official IBM recommendation using the new **Agent Development Kit (ADK)** with YAML configuration and CLI tools, please refer to the [IBM watsonx Orchestrate Developer Portal](https://developer.watson-orchestrate.ibm.com/).
+
 ## 🚀 Features
 
 *   **Generative AI Agent**: Uses IBM watsonx Orchestrate to power a conversational agent.
