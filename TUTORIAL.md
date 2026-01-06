@@ -40,6 +40,17 @@ Before you begin, ensure you have:
     IBM_CLOUD_API_KEY=your_actual_api_key_here
     IBM_WATSONX_ORCHESTRATE_ENDPOINT=https://your-instance-url.ibm.com
     ```
+    
+    ### 🔑 Where to find these credentials?
+    1.  **IBM_CLOUD_API_KEY**:
+        *   Log in to [IBM Cloud](https://cloud.ibm.com).
+        *   Go to **Manage** > **Access (IAM)**.
+        *   Select **API keys** from the sidebar.
+        *   Click **Create an IBM Cloud API key**.
+    
+    2.  **IBM_WATSONX_ORCHESTRATE_ENDPOINT**:
+        *   Go to your **watsonx Orchestrate** service instance in the IBM Cloud dashboard.
+        *   Look for the **Service URL** or **Endpoint** listed in the overview or credentials section.
 
 ## 3. The Code Explained
 

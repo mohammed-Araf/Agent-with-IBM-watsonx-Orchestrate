@@ -35,6 +35,7 @@ This project demonstrates how to build a simple Generative AI agent using the IB
     IBM_CLOUD_API_KEY=your_api_key
     IBM_WATSONX_ORCHESTRATE_ENDPOINT=https://your-instance-url
     ```
+    *(See [TUTORIAL.md](TUTORIAL.md#where-to-find-these-credentials) for instructions on finding your API Key and Endpoint)*
 
 4.  **Run the Agent**:
     ```bash
