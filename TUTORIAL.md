@@ -42,6 +42,8 @@ Before you begin, ensure you have:
     ```
     
     ### 🔑 Where to find these credentials?
+    For detailed instructions on setting up your environment and finding credentials, please visit the **[IBM watsonx Orchestrate Developer Portal](https://developer.watson-orchestrate.ibm.com/)**.
+    
     1.  **IBM_CLOUD_API_KEY**:
         *   Log in to [IBM Cloud](https://cloud.ibm.com).
         *   Go to **Manage** > **Access (IAM)**.
@@ -49,8 +51,8 @@ Before you begin, ensure you have:
         *   Click **Create an IBM Cloud API key**.
     
     2.  **IBM_WATSONX_ORCHESTRATE_ENDPOINT**:
-        *   Go to your **watsonx Orchestrate** service instance in the IBM Cloud dashboard.
-        *   Look for the **Service URL** or **Endpoint** listed in the overview or credentials section.
+        *   If you are using the Developer Edition, follow the setup guide on the [Developer Portal](https://developer.watson-orchestrate.ibm.com/) to configure your environment using the ADK.
+        *   The CLI command `orchestrate env add` helps configure these connections automatically in many cases.
 
 ## 3. The Code Explained
 

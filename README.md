@@ -47,5 +47,6 @@ This project demonstrates how to build a simple Generative AI agent using the IB
 For a deep dive into how this agent was built and how the code works, check out the **[TUTORIAL.md](TUTORIAL.md)** file included in this repository.
 
 ## 🔗 Resources
+*   **[IBM watsonx Orchestrate Developer Portal](https://developer.watson-orchestrate.ibm.com/)** (Recommended for new developers)
 *   [IBM watsonx Orchestrate Documentation](https://www.ibm.com/docs/en/watsonx/watson-orchestrate/base)
 *   [IBM watsonx Orchestrate Python SDK](https://pypi.org/project/ibm-watsonx-orchestrate/)
