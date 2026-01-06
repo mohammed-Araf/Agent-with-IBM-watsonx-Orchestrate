@@ -1,53 +1,50 @@
-# IBM watsonx Orchestrate Python Project
+# Agent with IBM watsonx Orchestrate
 
-This project is a starting point for developing with IBM watsonx Orchestrate using the Python SDK.
+This project demonstrates how to build a simple Generative AI agent using the IBM watsonx Orchestrate Python SDK. The agent is designed to perform a specific task—basic arithmetic calculations—by utilizing a custom "calculator" tool. This serves as a foundational example of "Agentic AI," where LLMs leverage external tools to solve problems accurately.
 
-## Prerequisites
+## 🚀 Features
 
-*   Python 3.11+
-*   IBM Cloud Account with watsonx Orchestrate service
+*   **Generative AI Agent**: Uses IBM watsonx Orchestrate to power a conversational agent.
+*   **Custom Tool Integration**: Includes a Python-based "Calculator" tool that the agent can invoke.
+*   **Simple CLI Interface**: Interact with the agent through a user-friendly command-line interface.
+*   **Step-by-Step Tutorial**: Includes a detailed [TUTORIAL.md](TUTORIAL.md) guide for learning and reproduction.
 
-## Setup Instructions
+## 📂 Project Structure
 
-1.  **Clone the repository** (if you haven't already).
+*   `main.py`: The entry point for running the agent in the CLI.
+*   `tools.py`: Defines the `calculate` tool function using the `@tool` decorator.
+*   `agent.py`: Handles the initialization and configuration of the Orchestrate agent.
+*   `TUTORIAL.md`: A comprehensive guide explaining the code and setup process.
 
-2.  **Create a virtual environment:**
+## 🛠️ Quick Start
+
+1.  **Clone the repository**:
     ```bash
-    python3 -m venv venv
-    source venv/bin/activate
+    git clone https://github.com/mohammed-Araf/Agent-with-IBM-watsonx-Orchestrate.git
+    cd Agent-with-IBM-watsonx-Orchestrate
     ```
 
-3.  **Install dependencies:**
+2.  **Install Dependencies**:
     ```bash
     pip install -r requirements.txt
     ```
-    *Note: If `requirements.txt` is missing, install manually:*
-    ```bash
-    pip install ibm-watsonx-orchestrate python-dotenv
-    ```
 
-4.  **Configure Environment Variables:**
-    *   Rename `.env` (if created) or create a new `.env` file based on the example.
-    *   Add your IBM Cloud API Key and watsonx Orchestrate Endpoint.
-    ```
-    IBM_CLOUD_API_KEY=your_actual_api_key
+3.  **Configure Environment**:
+    Create a `.env` file and add your IBM Cloud credentials:
+    ```ini
+    IBM_CLOUD_API_KEY=your_api_key
     IBM_WATSONX_ORCHESTRATE_ENDPOINT=https://your-instance-url
     ```
 
-## Running the Verification Script
+4.  **Run the Agent**:
+    ```bash
+    python main.py
+    ```
 
-To check if everything is set up correctly, run:
+## 📖 Learn More
 
-```bash
-python verify_setup.py
-```
+For a deep dive into how this agent was built and how the code works, check out the **[TUTORIAL.md](TUTORIAL.md)** file included in this repository.
 
-## Next Steps
-
-*   Explore the `ibm-watsonx-orchestrate` SDK documentation.
-*   Build your agent logic in `main.py` or new files.
-*   Use the `orchestrate` CLI for advanced management (if installed via the SDK).
-
-## Useful Links
+## 🔗 Resources
 *   [IBM watsonx Orchestrate Documentation](https://cloud.ibm.com/docs/watsonx-orchestrate)
-*   [PyPI Package](https://pypi.org/project/ibm-watsonx-orchestrate/)
+*   [IBM watsonx Orchestrate Python SDK](https://pypi.org/project/ibm-watsonx-orchestrate/)
